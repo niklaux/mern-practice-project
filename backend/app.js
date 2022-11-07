@@ -17,8 +17,7 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, Authorization"
   );
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PATCH, DELETE");
-  
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PATCH, DELETE")
   next();
 });
 
@@ -40,7 +39,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://******************@cluster0.bnwewwx.mongodb.net/mern?retryWrites=true&w=majority"
+    "mongodb+srv://nikkiocer:udemy_mern_backend@cluster0.bnwewwx.mongodb.net/mern?retryWrites=true&w=majority"
   )
   .then(() => {
     // SERVER PORT
