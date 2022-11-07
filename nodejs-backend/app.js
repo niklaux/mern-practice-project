@@ -39,7 +39,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://nikkiocer:udemy_mern_backend@cluster0.bnwewwx.mongodb.net/mern?retryWrites=true&w=majority"
+    "mongodb+srv://******************@cluster0.bnwewwx.mongodb.net/mern?retryWrites=true&w=majority"
   )
   .then(() => {
     // SERVER PORT
